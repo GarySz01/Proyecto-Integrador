@@ -1,0 +1,109 @@
+@media (max-width: 992px) {
+  #header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logo-nav {
+    width: 80px;
+  }
+
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-content a {
+    font-size: 16px;
+  }
+  .nav-content .user,
+  .nav-content .cart {
+    width: 50%;
+  }
+
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .caja-img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .main-img {
+    gap: 20px;
+  }
+
+  .main-img h2 {
+    font-size: 28px;
+  }
+
+  .main-img a {
+    padding: 3px;
+    font-size: 14px;
+  }
+
+  .caja-info {
+    height: 300px;
+    width: 300px;
+  }
+
+  .main-info {
+    gap: 0px;
+  }
+
+  .main-info p {
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .main-info h1 {
+    font-size: 32px;
+  }
+
+  #beneficios {
+    padding: 30px;
+  }
+
+  .caja-about {
+    height: 300px;
+    width: 250px;
+  }
+
+  .about {
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .about-info {
+    gap: 5px;
+  }
+
+  .about-info h3 {
+    font-size: 20px;
+    height: 80px;
+  }
+
+  .about-info p {
+    font-size: 16px;
+  }
+}
