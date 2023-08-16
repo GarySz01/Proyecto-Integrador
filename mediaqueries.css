@@ -106,4 +106,94 @@
   .about-info p {
     font-size: 16px;
   }
+
+  .product-gral {
+    gap: 30px;
+  }
+
+  .product-div {
+    gap: 50px;
+  }
+
+  .caja-product {
+    height: 250px;
+    width: 150px;
+  }
+
+  .product-elementos {
+    gap: 5px;
+  }
+
+  .product-elementos img {
+    width: 75%;
+  }
+
+  .product-elementos h4 {
+    font-size: 14px;
+  }
+
+  .product-elementos p {
+    font-size: 18px;
+  }
+
+  .product-elementos button {
+    padding: 3px;
+    margin-bottom: 0px;
+  }
+
+  .product-elementos a {
+    font-size: 12px;
+  }
+
+  .list-contact {
+    height: 200px;
+    width: 40%;
+    gap: 20px;
+  }
+
+  .list-contact h2 {
+    font-size: 32px;
+  }
+
+  .list-contact-info a {
+    font-size: 20px;
+  }
+
+  .list-Redes {
+    height: 200px;
+    width: 40%;
+    gap: 20px;
+  }
+
+  .list-Redes h2 {
+    font-size: 32px;
+  }
+
+  .list-redes-info a {
+    font-size: 20px;
+  }
+
+  .list-redes-info img {
+    width: 20px;
+  }
+
+  .contacto iframe {
+    width: 180px;
+    height: 180px;
+  }
+
+  #footer span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .product-elementos img {
+    width: 80%;
+    height: 25%;
+  }
+
+  .product-elementos h4 {
+    font-size: 14px;
+  }
 }
