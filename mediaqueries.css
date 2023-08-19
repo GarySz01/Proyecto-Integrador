@@ -321,9 +321,9 @@
     font-size: 12px;
   }
 
-  #productos {
-    /* width: 150%; */
-  }
+  /* #productos {
+    width: 150%;
+  } */
 
   .product-gral {
     gap: 40px;
@@ -411,9 +411,9 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 310px) and (max-width: 576px) {
   body {
-    width: 43rem;
+    width: 46rem;
   }
 
   #header {
@@ -527,9 +527,9 @@
     font-size: 12px;
   }
 
-  #productos {
-    /* width: 150%; */
-  }
+  /* #productos {
+    width: 150%;
+  } */
 
   .product-gral {
     gap: 40px;
