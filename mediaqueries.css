@@ -194,7 +194,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .product-elementos img {
     width: 80%;
     height: 25%;
@@ -203,18 +203,18 @@
   .product-elementos h4 {
     font-size: 14px;
   }
-}
+} */
 
-@media (max-width: 576px) {
-  /* body {
-    width: 150%;
-  } */
+@media (max-width: 768px) {
+  body {
+    width: 50rem;
+  }
 
   #header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 150%;
+    /* width: 15rem; */
   }
 
   .logo-nav {
@@ -247,7 +247,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
-    width: 150%;
+    /* width: 150%; */
   }
 
   .hero {
@@ -295,7 +295,7 @@
 
   #beneficios {
     padding: 30px;
-    width: 150%;
+    /* width: 150%; */
   }
 
   .caja-about {
@@ -322,7 +322,7 @@
   }
 
   #productos {
-    width: 150%;
+    /* width: 150%; */
   }
 
   .product-gral {
@@ -402,7 +402,213 @@
   }
 
   #footer {
-    width: 150%;
+    /* width: 150%; */
+    padding: 20px;
+  }
+
+  #footer span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    width: 43rem;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 150%; */
+  }
+
+  .logo-nav {
+    width: 70px;
+  }
+
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-content a {
+    font-size: 16px;
+  }
+  .nav-content .user,
+  .nav-content .cart {
+    width: 50%;
+  }
+
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* width: 150%; */
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .caja-img {
+    width: 300px;
+    height: 230px;
+  }
+
+  .main-img {
+    gap: 10px;
+  }
+
+  .main-img h2 {
+    font-size: 24px;
+  }
+
+  .main-img a {
+    padding: 3px;
+    font-size: 14px;
+  }
+
+  .caja-info {
+    height: 230px;
+    width: 230px;
+  }
+
+  .main-info {
+    gap: 0px;
+  }
+
+  .main-info p {
+    padding: 0px;
+    font-size: 12px;
+  }
+
+  .main-info h1 {
+    font-size: 26px;
+  }
+
+  #beneficios {
+    padding: 30px;
+    /* width: 150%; */
+  }
+
+  .caja-about {
+    height: 250px;
+    width: 200px;
+  }
+
+  .about {
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .about-info {
+    gap: 5px;
+  }
+
+  .about-info h3 {
+    font-size: 18px;
+    height: 70px;
+  }
+
+  .about-info p {
+    font-size: 12px;
+  }
+
+  #productos {
+    /* width: 150%; */
+  }
+
+  .product-gral {
+    gap: 40px;
+  }
+
+  .product-div {
+    gap: 35px;
+  }
+
+  .caja-product {
+    height: 250px;
+    width: 150px;
+  }
+
+  .product-elementos {
+    gap: 5px;
+  }
+
+  .product-elementos img {
+    width: 60%;
+  }
+
+  .product-elementos h4 {
+    font-size: 12px;
+  }
+
+  .product-elementos p {
+    font-size: 16px;
+  }
+
+  .product-elementos button {
+    padding: 3px;
+    margin-bottom: 0px;
+  }
+
+  .product-elementos a {
+    font-size: 12px;
+  }
+
+  .list-contact {
+    height: 200px;
+    width: 40%;
+    gap: 10px;
+  }
+
+  .list-contact h2 {
+    font-size: 26px;
+  }
+
+  .list-contact-info a {
+    font-size: 18px;
+  }
+
+  .list-Redes {
+    height: 200px;
+    width: 40%;
+    gap: 10px;
+  }
+
+  .list-Redes h2 {
+    font-size: 26px;
+  }
+
+  .list-redes-info a {
+    font-size: 18px;
+  }
+
+  .list-redes-info img {
+    width: 20px;
+  }
+
+  .contacto iframe {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 80px;
+  }
+
+  #footer {
+    /* width: 150%; */
     padding: 20px;
   }
 
