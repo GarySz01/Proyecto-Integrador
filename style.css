@@ -276,6 +276,13 @@ body {
   text-align: center;
 }
 
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .product-elementos {
   display: flex;
   flex-direction: column;
@@ -414,8 +421,7 @@ body {
   width: 1.5rem;
   margin-right: 5px;
 }
-
-.contacto iframe {
+iframe {
   width: 15rem;
   height: 15rem;
 }
