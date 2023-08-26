@@ -1,13 +1,182 @@
-@media (max-width: 992px) {
-  #header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+@media (max-width: 1200px) {
+  body {
     width: 100%;
   }
 
   .logo-nav {
-    width: 80px;
+    width: 10%;
+  }
+  .caja-img {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .main-img {
+    gap: 20px;
+  }
+
+  .main-img h2 {
+    font-size: 28px;
+    height: 20%;
+  }
+
+  .main-img a {
+    padding: 3px;
+    font-size: 14px;
+  }
+
+  .caja-info {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .main-info {
+    gap: 0px;
+  }
+
+  .main-info p {
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .main-info h1 {
+    font-size: 32px;
+    height: 50%;
+  }
+  #beneficios {
+    padding: 10px;
+  }
+
+  .caja-about {
+    height: 20rem;
+    width: 15rem;
+  }
+
+  .about {
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .about-info {
+    gap: 10px;
+  }
+  .about-info img {
+    width: 30%;
+  }
+
+  .about-info h3 {
+    font-size: 20px;
+    height: 80px;
+  }
+
+  .about-info p {
+    font-size: 14px;
+  }
+  .product-gral {
+    gap: 30px;
+  }
+
+  .product-div {
+    gap: 50px;
+  }
+  .product {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .caja-product {
+    height: 15rem;
+    width: 10rem;
+  }
+
+  .product-elementos {
+    gap: 5px;
+  }
+
+  .product-elementos img {
+    width: 65%;
+  }
+
+  .product-elementos h4 {
+    font-size: 12px;
+  }
+
+  .product-elementos p {
+    font-size: 16px;
+  }
+
+  .product-elementos button {
+    padding: 3px;
+    margin-bottom: 0px;
+  }
+
+  .product-elementos a {
+    font-size: 12px;
+  }
+  #footer {
+    gap: 20px;
+  }
+
+  .contacto {
+    width: 100%;
+  }
+
+  .list-contact {
+    height: 10rem;
+    width: 100%;
+    gap: 10px;
+    margin-top: 5%;
+  }
+
+  .list-contact h2 {
+    font-size: 32px;
+  }
+
+  .list-contact-info a {
+    font-size: 20px;
+  }
+
+  .list-Redes {
+    height: 10rem;
+    width: 100%;
+    gap: 10px;
+    margin-top: 5%;
+  }
+
+  .list-Redes h2 {
+    font-size: 32px;
+  }
+
+  .list-redes-info a {
+    font-size: 20px;
+  }
+
+  .list-redes-info img {
+    width: 20px;
+  }
+  iframe {
+    width: 25rem;
+    height: 15rem;
+  }
+
+  #footer span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    width: 100%;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logo-nav {
+    width: 100px;
   }
 
   .nav-content {
@@ -24,19 +193,18 @@
   }
 
   .nav-content a {
-    font-size: 16px;
+    font-size: 18px;
   }
   .nav-content .user,
   .nav-content .cart {
-    width: 50%;
+    width: 70%;
   }
 
   #main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    width: 100%;
+    padding: 10px;
   }
 
   .hero {
@@ -83,13 +251,12 @@
   }
 
   #beneficios {
-    padding: 30px;
-    width: 100%;
+    padding: 10px;
   }
 
   .caja-about {
-    height: 300px;
-    width: 250px;
+    height: 20rem;
+    width: 13rem;
   }
 
   .about {
@@ -117,7 +284,11 @@
   .product-div {
     gap: 50px;
   }
-
+  .product {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .caja-product {
     height: 250px;
     width: 150px;
@@ -148,10 +319,14 @@
     font-size: 12px;
   }
 
+  .contacto {
+    width: 100%;
+  }
+
   .list-contact {
-    height: 200px;
-    width: 40%;
-    gap: 20px;
+    height: 10rem;
+    width: 100%;
+    gap: 10px;
   }
 
   .list-contact h2 {
@@ -163,9 +338,9 @@
   }
 
   .list-Redes {
-    height: 200px;
-    width: 40%;
-    gap: 20px;
+    height: 10rem;
+    width: 100%;
+    gap: 10px;
   }
 
   .list-Redes h2 {
@@ -179,14 +354,9 @@
   .list-redes-info img {
     width: 20px;
   }
-
-  .contacto iframe {
-    width: 180px;
-    height: 180px;
-  }
-
-  #footer {
-    width: 100%;
+  iframe {
+    width: 15rem;
+    height: 15rem;
   }
 
   #footer span {
@@ -194,31 +364,19 @@
   }
 }
 
-/* @media (max-width: 1200px) {
-  .product-elementos img {
-    width: 80%;
-    height: 25%;
-  }
-
-  .product-elementos h4 {
-    font-size: 14px;
-  }
-} */
-
 @media (min-width: 577px) and (max-width: 768px) {
   body {
-    width: 50rem;
+    width: 100%;
   }
 
   #header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 15rem; */
   }
 
   .logo-nav {
-    width: 70px;
+    width: 90px;
   }
 
   .nav-content {
@@ -231,7 +389,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
   }
 
   .nav-content a {
@@ -239,15 +397,14 @@
   }
   .nav-content .user,
   .nav-content .cart {
-    width: 50%;
+    width: 60%;
   }
 
   #main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    /* width: 150%; */
+    padding: 10px;
   }
 
   .hero {
@@ -255,6 +412,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 0px;
   }
 
   .caja-img {
@@ -264,6 +422,9 @@
 
   .main-img {
     gap: 10px;
+  }
+  .main-img img {
+    width: 100%;
   }
 
   .main-img h2 {
@@ -294,13 +455,12 @@
   }
 
   #beneficios {
-    padding: 30px;
-    /* width: 150%; */
+    padding: 10px;
   }
 
   .caja-about {
-    height: 250px;
-    width: 200px;
+    height: 12rem;
+    width: 9.8rem;
   }
 
   .about {
@@ -309,33 +469,45 @@
   }
 
   .about-info {
-    gap: 5px;
+    gap: 10px;
+  }
+
+  .about-info img {
+    width: 25%;
   }
 
   .about-info h3 {
-    font-size: 18px;
-    height: 70px;
+    font-size: 14px;
+    height: 40px;
   }
 
   .about-info p {
-    font-size: 12px;
+    font-size: 10px;
   }
-
-  /* #productos {
-    width: 150%;
-  } */
+  #productos {
+    padding: 10px;
+  }
 
   .product-gral {
     gap: 40px;
   }
 
   .product-div {
-    gap: 35px;
+    gap: 15%;
   }
 
   .caja-product {
-    height: 250px;
-    width: 150px;
+    height: 14rem;
+    width: 10rem;
+  }
+  .product-div h3 {
+    width: 15%;
+  }
+
+  .product {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .product-elementos {
@@ -343,15 +515,15 @@
   }
 
   .product-elementos img {
-    width: 60%;
+    width: 70%;
   }
 
   .product-elementos h4 {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .product-elementos p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .product-elementos button {
@@ -364,46 +536,48 @@
   }
 
   .list-contact {
-    height: 200px;
-    width: 40%;
+    height: 20%;
+    width: 100%;
     gap: 10px;
   }
 
   .list-contact h2 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .list-contact-info a {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .list-Redes {
-    height: 200px;
-    width: 40%;
+    height: 20%;
+    width: 100%;
     gap: 10px;
   }
 
   .list-Redes h2 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .list-redes-info a {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .list-redes-info img {
     width: 20px;
   }
-
-  .contacto iframe {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 80px;
+  .contacto {
+    width: 100%;
+    height: 10rem;
+  }
+  iframe {
+    width: 15rem;
+    height: 15rem;
   }
 
   #footer {
-    /* width: 150%; */
     padding: 20px;
+    gap: 15px;
   }
 
   #footer span {
@@ -412,6 +586,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+
   #header {
     display: flex;
     justify-content: space-around;
@@ -446,7 +624,7 @@
   }
   .nav-content .user,
   .nav-content .cart {
-    width: 50%;
+    width: 60%;
   }
 
   #main {
@@ -463,6 +641,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    padding: 0px;
   }
 
   .caja-img {
@@ -539,14 +718,6 @@
     width: 20%;
   }
 
-  /* #productos {
-    width: 150%;
-  } */
-
-  .product-gral {
-    /* gap: 40px; */
-  }
-
   .categories {
     gap: 4%;
   }
@@ -563,14 +734,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
-    gap: 40px;
-    width: 100%;
+    gap: 20px;
   }
 
   .product-div {
     gap: 20px;
-    /* width: 100%; */
   }
 
   .product-div h3 {
@@ -587,7 +755,6 @@
     gap: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* width: 100%; */
   }
 
   .product-elementos img {
