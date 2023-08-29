@@ -25,6 +25,10 @@
     font-size: 14px;
   }
 
+  .main-img img {
+    width: 100%;
+  }
+
   .caja-info {
     height: 20rem;
     width: 20rem;
@@ -232,6 +236,10 @@
     font-size: 14px;
   }
 
+  .main-img img {
+    width: 100%;
+  }
+
   .caja-info {
     height: 300px;
     width: 300px;
@@ -393,7 +401,7 @@
   }
 
   .nav-content a {
-    font-size: 16px;
+    font-size: 14px;
   }
   .nav-content .user,
   .nav-content .cart {
@@ -405,6 +413,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin-top: 110px;
   }
 
   .hero {
@@ -594,11 +603,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 150%; */
   }
 
   .logo-nav {
-    width: 25%;
+    width: 20%;
   }
 
   .nav-content {
@@ -609,13 +617,38 @@
 
   .nav-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
   }
 
-  .nav-info a {
-    display: none;
+  .navbar-list li a {
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .nav-info ul {
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 110px);
+    position: absolute;
+    top: 105px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    /* display: flex; */
+    transform: translateX(200%);
+    transition: all 0.4s ease-out;
+  }
+  .nav-info i {
+    display: block;
+  }
+  #toggle-menu:checked ~ .navbar-list {
+    /* display: none; */
+    transform: translateX(0%);
+    transition: all 0.4s ease-in;
   }
 
   .nav-content a {

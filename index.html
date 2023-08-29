@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="./itotecno.png" type="image/x-png" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header id="header">
@@ -14,9 +21,14 @@
       <nav class="nav">
         <div class="nav-content">
           <div class="nav-info">
-            <li><a href="#productos">Categorías</a></li>
-            <li><a href="#beneficios">Beneficios</a></li>
-            <li><a href="#footer">Contacto</a></li>
+            <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu" />
+
+            <ul class="navbar-list">
+              <li><a href="#productos">Categorías</a></li>
+              <li><a href="#beneficios">Beneficios</a></li>
+              <li><a href="#footer">Contacto</a></li>
+            </ul>
           </div>
           <a href="./Registro/registro.html"
             ><img src="./imagenes/user-login.png" alt="User" class="user"
