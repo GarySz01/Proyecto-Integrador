@@ -8,7 +8,6 @@ body {
   background: url(./fondo.jpg);
   background-size: cover;
   background-attachment: fixed;
-  /* background-color: #457b9d; */
 }
 #Form {
   display: flex;
@@ -82,4 +81,115 @@ body {
 
 .caja-form p {
   margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+  .caja-form {
+    height: 25rem;
+    width: 17rem;
+  }
+
+  .formulario {
+    height: 50%;
+    width: 70%;
+    gap: 10px;
+  }
+  .caja-form h1 {
+    margin-top: 0px;
+    font-size: 28px;
+  }
+  .formulario label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .input-submit {
+    width: 70%;
+    height: 25px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .caja-form {
+    height: 30rem;
+    width: 25rem;
+    margin-top: 60px;
+  }
+
+  .formulario {
+    height: 70%;
+    width: 100%;
+    gap: 40px;
+  }
+  .caja-form h1 {
+    margin-top: 0px;
+    font-size: 34px;
+  }
+  .formulario label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .input-submit {
+    width: 80%;
+    height: 35px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .caja-form {
+    height: 30rem;
+    width: 25rem;
+    margin-top: 60px;
+  }
+
+  .formulario {
+    height: 70%;
+    width: 100%;
+    gap: 40px;
+  }
+  .caja-form h1 {
+    margin-top: 0px;
+    font-size: 36px;
+  }
+  .formulario label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .input-submit {
+    width: 80%;
+    height: 35px;
+  }
+
+  .caja-form p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .caja-form {
+    height: 30rem;
+    width: 25rem;
+    margin-top: 80px;
+  }
+
+  .formulario {
+    height: 70%;
+    width: 100%;
+    gap: 40px;
+  }
+  .caja-form h1 {
+    margin-top: 0px;
+    font-size: 40px;
+  }
+  .formulario label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .input-submit {
+    width: 80%;
+    height: 40px;
+  }
+
+  .caja-form p {
+    font-size: 18px;
+  }
 }
